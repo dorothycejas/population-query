@@ -11,3 +11,8 @@ FROM population_years
 WHERE year = 2005
 ORDER BY population ASC
 LIMIT 10;
+
+SELECT DISTINCT country
+FROM population_years
+WHERE population > 100 
+  AND year = 2010;
