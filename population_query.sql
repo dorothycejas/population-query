@@ -16,3 +16,7 @@ SELECT DISTINCT country
 FROM population_years
 WHERE population > 100 
   AND year = 2010;
+  
+SELECT DISTINCT country
+FROM population_years
+WHERE country LIKE '%Islands%';
